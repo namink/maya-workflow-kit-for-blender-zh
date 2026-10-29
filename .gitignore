@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.blend1
+dist/
+build/
+tmp/
+release-assets/
+.venv/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

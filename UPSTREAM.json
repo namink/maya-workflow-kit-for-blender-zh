@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/5hyuns/maya-workflow-kit-for-blender",
+  "commit": "bd7ee0440250bf00d57c7aa304dd8cabc8b03143",
+  "upstream_version": "0.6.2",
+  "localized_version": "0.6.2+zh.2",
+  "snapshot_method": "Official GitHub raw/API source snapshot. Original Git history is not present in this repository.",
+  "scope": "Complete extension source and selected passing tests. Not a full copy of upstream website or development tooling.",
+  "licenses": {
+    "code": "GPL-3.0-or-later",
+    "upstream_original_assets": "CC0-1.0",
+    "translation_inputs": "Local Blender Chinese gettext entries under Blender GPL licensing, plus locally authored translations."
+  }
+}

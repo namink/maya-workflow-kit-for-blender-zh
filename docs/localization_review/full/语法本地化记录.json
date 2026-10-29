@@ -1,0 +1,232 @@
+[
+  {
+    "id": "T01278",
+    "changes": [
+      {
+        "source": "{'Multiplier' if i % 2 == 0 else 'Exponent'}",
+        "target": "{'倍数' if i % 2 == 0 else '指数'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "T01279",
+    "changes": [
+      {
+        "source": "{'Horizontal' if i < 8 else 'Vertical'}",
+        "target": "{'水平' if i < 8 else '垂直'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "F9d9918493d86",
+    "changes": [
+      {
+        "source": "{'Multiplier' if i % 2 == 0 else 'Exponent'}",
+        "target": "{'倍数' if i % 2 == 0 else '指数'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "F6036997d6d7d",
+    "changes": [
+      {
+        "source": "{'Horizontal' if i < 8 else 'Vertical'}",
+        "target": "{'水平' if i < 8 else '垂直'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "F9536241f11b4",
+    "changes": [
+      {
+        "source": "{pb.name if pb is not None else '(missing)'}",
+        "target": "{pb.name if pb is not None else '（缺失）'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "F78d58852c5dc",
+    "changes": [
+      {
+        "source": "{' (kept)' if slots.active_index in done else ''}",
+        "target": "{'（已保留）' if slots.active_index in done else ''}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "F8ecd207726f8",
+    "changes": [
+      {
+        "source": "{'Show' if props.group in _collapsed else 'Hide'}",
+        "target": "{'显示' if props.group in _collapsed else '隐藏'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "Dedf706e88d19",
+    "changes": [
+      {
+        "source": "{getattr(bpy.context.window_manager, 'allset_mm_target', '') or (ob.name if ob else 'Object')}",
+        "target": "{getattr(bpy.context.window_manager, 'allset_mm_target', '') or (ob.name if ob else '对象')}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "D532fc1f83453",
+    "changes": [
+      {
+        "source": "{'s' if n != 1 else ''}",
+        "target": "",
+        "reason": "中文不使用英文复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "E806b835bcaad",
+    "changes": [
+      {
+        "source": "{'s' if n != 1 else ''}",
+        "target": "",
+        "reason": "中文不使用英文复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "E5924f7451a1e",
+    "changes": [
+      {
+        "source": "{'Moved' if self._mode == 'MOVE' else 'Scaled'}",
+        "target": "{'已移动' if self._mode == 'MOVE' else '已缩放'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "Edf4c3f59e4ec",
+    "changes": [
+      {
+        "source": "{'Added' if self.add else 'Removed'}",
+        "target": "{'已添加' if self.add else '已移除'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "E3a069b0f14a9",
+    "changes": [
+      {
+        "source": "{'s' if n != 1 else ''}",
+        "target": "",
+        "reason": "中文不使用英文复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "E7e502471295a",
+    "changes": [
+      {
+        "source": "{'Baked' if bake else 'Deleted'}",
+        "target": "{'已烘焙' if bake else '已删除'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "Eb1d242cc07ec",
+    "changes": [
+      {
+        "source": "{'s' if len(curves) != 1 else ''}",
+        "target": "",
+        "reason": "中文不使用英文复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "E155178d08c98",
+    "changes": [
+      {
+        "source": "{'s' if len(curves) != 1 else ''}",
+        "target": "",
+        "reason": "中文不使用英文复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "E67279f36eed7",
+    "changes": [
+      {
+        "source": "{'s' if len(curves) != 1 else ''}",
+        "target": "",
+        "reason": "中文不使用英文复数后缀"
+      },
+      {
+        "source": "{'weighted' if self.weighted else 'non-weighted'}",
+        "target": "{'加权' if self.weighted else '非加权'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "E4bb5add552ac",
+    "changes": [
+      {
+        "source": "{'locked' if self.lock else 'freed'}",
+        "target": "{'已锁定' if self.lock else '已释放'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      },
+      {
+        "source": "{'s' if count != 1 else ''}",
+        "target": "",
+        "reason": "中文不使用英文复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "E4e6c99eb04bb",
+    "changes": [
+      {
+        "source": "{'s' if len(found) != 1 else ''}",
+        "target": "",
+        "reason": "中文不使用英文复数后缀"
+      }
+    ]
+  },
+  {
+    "id": "E368bcfb75175",
+    "changes": [
+      {
+        "source": "{'on' if on else 'off'}",
+        "target": "{'已启用' if on else '已禁用'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "E9c86dfd9e8b7",
+    "changes": [
+      {
+        "source": "{'on' if on else 'off'}",
+        "target": "{'已启用' if on else '已禁用'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  },
+  {
+    "id": "E2d4bb0afbe77",
+    "changes": [
+      {
+        "source": "{'on' if self.show else 'off'}",
+        "target": "{'已启用' if self.show else '已禁用'}",
+        "reason": "仅本地化条件分支的固定显示文字，保留判断与数据表达式"
+      }
+    ]
+  }
+]

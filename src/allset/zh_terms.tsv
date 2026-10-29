@@ -1,0 +1,904 @@
+Hotbox	热盒
+Marking Menu	标记菜单
+Marking Menus	标记菜单
+Channel Box	通道盒
+Attribute Editor	属性编辑器
+Layer Editor	层编辑器
+Graph Editor	曲线图编辑器
+Dope Sheet	摄影表
+Time Slider	时间滑块
+Range Slider	范围滑块
+Shelf	工具架
+Shelves	工具架
+Outliner	大纲视图
+Hypershade	Hypershade 材质编辑器
+Tool Settings	工具设置
+Modeling Toolkit	建模工具包
+UV Toolkit	UV 工具包
+UV Editor	UV 编辑器
+Script Editor	脚本编辑器
+Command Line	命令行
+Help Line	帮助行
+Status Line	状态行
+Tool Box	工具箱
+Menu Set	菜单集
+Menu Sets	菜单集
+Modeling	建模
+Rigging	绑定
+Animation	动画
+Rendering	渲染
+FX	特效
+Freeze Transformations	冻结变换
+Reset Transformations	重置变换
+Center Pivot	居中枢轴
+Delete History	删除历史
+Delete by Type	按类型删除
+Construction History	构建历史
+Duplicate Special	特殊复制
+Duplicate with Transform	带变换复制
+Paint Skin Weights Tool	绘制蒙皮权重工具
+Paint Skin Weights	绘制蒙皮权重
+Bind Skin	绑定蒙皮
+Unbind Skin	解除蒙皮绑定
+Smooth Bind	平滑绑定
+Copy Skin Weights	复制蒙皮权重
+Mirror Skin Weights	镜像蒙皮权重
+Prune Small Weights	修剪较小权重
+Normalize Weights	规格化权重
+Hammer Skin Weights	锤形蒙皮权重
+Set Driven Key	设置驱动关键帧
+Set Key	设置关键帧
+Key Selected	为选定通道设置关键帧
+Auto Key	自动关键帧
+Playblast	播放预览
+Joint Tool	关节工具
+IK Handle	IK 控制柄
+IK Spline	IK 样条线
+Preferred Angle	首选角度
+Orient Joint	确定关节方向
+Reroot Skeleton	重设骨架根
+Blend Shape	混合变形
+Blend Shapes	混合变形
+Shape Editor	形状编辑器
+Pose Editor	姿势编辑器
+Component Editor	组件编辑器
+Connection Editor	连接编辑器
+Reference Editor	引用编辑器
+Light Editor	灯光编辑器
+Light Linking Editor	灯光链接编辑器
+Render Settings	渲染设置
+Render View	渲染视图
+Render Current Frame	渲染当前帧
+Batch Render	批渲染
+Smooth Mesh Preview	平滑网格预览
+Soft Selection	软选择
+Soft Select	软选择
+Soft Modification	软修改
+Soft Mod	软修改
+Cluster	簇
+Wire	线变形器
+Lattice	晶格
+Wrap	包裹
+Delta Mush	Delta Mush
+Nonlinear	非线性
+Nonlinear Deformers	非线性变形器
+Deform	变形
+Deformer	变形器
+Deformers	变形器
+Skin	蒙皮
+Skeleton	骨架
+Joint	关节
+Joints	关节
+Influence	影响对象
+Influences	影响对象
+Weight	权重
+Weights	权重
+Constraint	约束
+Constraints	约束
+Constrain	约束
+Parent Constraint	父约束
+Point Constraint	点约束
+Orient Constraint	方向约束
+Aim Constraint	目标约束
+Scale Constraint	缩放约束
+Pole Vector Constraint	极向量约束
+Maintain Offset	保持偏移
+Transform	变换
+Transformations	变换
+Translate	平移
+Rotate	旋转
+Scale	缩放
+Visibility	可见性
+Pivot	枢轴
+Pivots	枢轴
+Edit Pivot	编辑枢轴
+World	世界
+Object	对象
+Objects	对象
+Component	组件
+Components	组件
+Object Mode	对象模式
+Component Mode	组件模式
+Vertex	顶点
+Vertices	顶点
+Edge	边
+Edges	边
+Face	面
+Faces	面
+Vertex Face	顶点面
+UV Shell	UV 壳
+UV Shells	UV 壳
+Edge Loop	循环边
+Edge Ring	环形边
+Border Edge	边界边
+Border Edges	边界边
+Mesh	网格
+Meshes	网格
+Edit Mesh	编辑网格
+Mesh Tools	网格工具
+Mesh Display	网格显示
+Polygon	多边形
+Polygons	多边形
+NURBS Primitives	NURBS 基本体
+Polygon Primitives	多边形基本体
+Control Vertex	控制顶点
+Control Vertices	控制顶点
+Isoparm	等参线
+Edit Point	编辑点
+Hull	控制壳
+Surface	曲面
+Surfaces	曲面
+Curve	曲线
+Curves	曲线
+Curve Point	曲线点
+Bezier	贝塞尔
+Bezier Curve	贝塞尔曲线
+Motion Path	运动路径
+Motion Trail	运动轨迹
+Ghosting	重影
+Animation Layers	动画层
+Animation Layer	动画层
+Display Layers	显示层
+Display Layer	显示层
+Render Layer	渲染层
+Character Set	角色集
+Character Sets	角色集
+Keyframe	关键帧
+Keyframes	关键帧
+Keys	关键帧
+Key	关键帧
+Tangent	切线
+Tangents	切线
+Spline	样条线
+Linear	线性
+Clamped	夹持
+Stepped	阶梯
+Flat	平坦
+Plateau	高原
+Auto	自动
+Fixed	固定
+Weighted Tangents	加权切线
+Break Tangents	打断切线
+Unify Tangents	统一切线
+Infinity	无穷
+Pre Infinity	前无穷
+Post Infinity	后无穷
+Cycle	循环
+Cycle with Offset	带偏移循环
+Oscillate	振荡
+Bake Simulation	烘焙模拟
+Bake Results	烘焙结果
+Euler Filter	欧拉过滤器
+Retiming	重定时
+Time Warp	时间扭曲
+Extrude	挤出
+Bevel	倒角
+Bridge	桥接
+Merge	合并
+Target Weld	目标焊接
+Multi-Cut	多切割
+Quad Draw	四边形绘制
+Insert Edge Loop	插入循环边
+Circularize	圆形化
+Connect	连接
+Disconnect	断开连接
+Combine	结合
+Separate	分离
+Boolean	布尔
+Booleans	布尔
+Union	并集
+Difference	差集
+Intersection	交集
+Smooth	平滑
+Reduce	减少
+Triangulate	三角化
+Quadrangulate	四边形化
+Remesh	重新划分网格
+Retopologize	重新拓扑
+Cleanup	清理
+Fill Hole	填充洞
+Make Hole	创建洞
+Poke	戳面
+Wedge	楔形
+Chamfer	切角
+Crease	折痕
+Sculpt	雕刻
+Normals	法线
+Normal	法线
+Soften Edge	软化边
+Harden Edge	硬化边
+Soften/Harden Edges	软化/硬化边
+Reverse	反转
+Conform	统一
+Unlock Normals	解锁法线
+Lock Normals	锁定法线
+Set to Face	设为面
+Average	平均
+Vertex Color	顶点颜色
+Color Set	颜色集
+Color Sets	颜色集
+UV Sets	UV 集
+Cut UV Edges	剪切 UV 边
+Sew UV Edges	缝合 UV 边
+Unfold	展开
+Layout	布局
+Planar	平面
+Cylindrical	圆柱
+Spherical	球面
+Automatic	自动
+Projection	投影
+Texel Density	纹素密度
+Straighten	拉直
+Relax	松弛
+Pin	固定
+Unpin	取消固定
+Stitch	缝合
+Sew	缝合
+Cut	剪切
+Flip	翻转
+Mirror	镜像
+Symmetry	对称
+Symmetrize	对称化
+Material	材质
+Materials	材质
+Shader	着色器
+Shading Group	着色组
+Shading	着色
+Lighting/Shading	照明/着色
+Texturing	纹理
+Texture	纹理
+Textures	纹理
+Light	灯光
+Lights	灯光
+Point Light	点光源
+Directional Light	平行光
+Spot Light	聚光灯
+Area Light	区域光
+Ambient Light	环境光
+Volume Light	体积光
+Camera	摄影机
+Cameras	摄影机
+Perspective	透视
+Orthographic	正交
+Front	前视图
+Side	侧视图
+Top	顶视图
+Back	后视图
+Bottom	底视图
+Left	左
+Right	右
+View	视图
+Views	视图
+Viewport	视口
+Shaded	着色
+Wireframe	线框
+Bounding Box	边界框
+Frame Selected	框显选定对象
+Frame All	框显全部
+Look at Selection	注视选定对象
+Isolate Select	隔离选择
+X-Ray	X 射线
+Grid	栅格
+Snap	吸附
+Snapping	吸附
+Snap to Grid	吸附到栅格
+Snap to Point	吸附到点
+Snap to Curve	吸附到曲线
+Make Live	使成为活动对象
+Selection	选择
+Select	选择
+Selected	选定
+Deselect	取消选择
+Select All	全部选择
+Deselect All	取消全部选择
+Select Hierarchy	选择层次
+Select Similar	选择相似项
+Grow Selection	扩大选择
+Shrink Selection	缩小选择
+Convert Selection	转换选择
+Selection Mask	选择遮罩
+Selection Priority	选择优先级
+Pre-selection Highlight	预选择高亮显示
+Select Through	穿透选择
+Parent	建立父子关系
+Unparent	取消父子关系
+Group	编组
+Ungroup	取消编组
+Hierarchy	层次
+Namespace	命名空间
+Reference	引用
+References	引用
+Create Reference	创建引用
+Import Reference	导入引用
+Set Project	设置项目
+Project Window	项目窗口
+Project	项目
+Scene	场景
+File	文件
+New Scene	新建场景
+Open Scene	打开场景
+Save Scene	保存场景
+Save Scene As	场景另存为
+Increment and Save	递增并保存
+Import	导入
+Export	导出
+Export All	全部导出
+Export Selection	导出选定对象
+Edit	编辑
+Create	创建
+Modify	修改
+Display	显示
+Windows	窗口
+Windows and Editors	窗口和编辑器
+Editors	编辑器
+Help	帮助
+Tools	工具
+Tool	工具
+Options	选项
+Settings	设置
+Preferences	首选项
+Save Settings	保存设置
+Reset Settings	重置设置
+Apply	应用
+Cancel	取消
+Close	关闭
+OK	确定
+Reset	重置
+Save	保存
+Load	加载
+Open	打开
+New	新建
+Add	添加
+Remove	移除
+Delete	删除
+Rename	重命名
+Duplicate	复制
+Copy	复制
+Paste	粘贴
+Undo	撤消
+Redo	重做
+Repeat Last	重复上次操作
+Recent Commands	最近使用的命令
+Recent Files	最近使用的文件
+All	全部
+None	无
+On	开
+Off	关
+Enable	启用
+Disable	禁用
+Enabled	已启用
+Disabled	已禁用
+Show	显示
+Hide	隐藏
+Show All	显示全部
+Hide Selected	隐藏选定对象
+Show Selected	显示选定对象
+Toggle	切换
+Lock	锁定
+Unlock	解锁
+Default	默认
+Defaults	默认值
+Custom	自定义
+Name	名称
+Type	类型
+Value	值
+Mode	模式
+Axis	轴
+Axes	轴
+Local	局部
+Global	全局
+Offset	偏移
+Position	位置
+Rotation	旋转
+Translation	平移
+Size	大小
+Width	宽度
+Height	高度
+Depth	深度
+Length	长度
+Radius	半径
+Angle	角度
+Distance	距离
+Threshold	阈值
+Tolerance	容差
+Divisions	分段数
+Subdivisions	细分数
+Segments	段数
+Count	数量
+Number	数量
+Start	起始
+End	结束
+Min	最小值
+Max	最大值
+Minimum	最小值
+Maximum	最大值
+Range	范围
+Time	时间
+Frame	帧
+Frames	帧
+Playback	播放
+Play	播放
+Stop	停止
+Next	下一个
+Previous	上一个
+Step	步长
+Speed	速度
+Duration	持续时间
+Loop	循环
+Looping	循环
+Blend	混合
+Replace	替换
+Multiply	相乘
+Subtract	相减
+Strength	强度
+Opacity	不透明度
+Falloff	衰减
+Interpolation	插值
+Color	颜色
+Colour	颜色
+Background	背景
+Resolution	分辨率
+Samples	采样数
+Quality	质量
+Render	渲染
+Preview	预览
+Common	公用
+Output	输出
+Input	输入
+Inputs	输入
+Outputs	输出
+Shapes	形状
+Attributes	属性
+Channels	通道
+Channel	通道
+History	历史
+Notes	注释
+Node	节点
+Nodes	节点
+Connection	连接
+Connections	连接
+Set	集
+Sets	集
+Layer	层
+Layers	层
+Sphere	球体
+Cube	立方体
+Cylinder	圆柱体
+Cone	圆锥体
+Plane	平面
+Torus	圆环
+Prism	棱柱
+Pyramid	棱锥
+Pipe	管道
+Helix	螺旋线
+Circle	圆
+Square	方形
+Locator	定位器
+Locators	定位器
+Text	文本
+Measure	测量
+Distance Tool	距离工具
+Bend	弯曲
+Twist	扭曲
+Squash	挤压
+Flare	扩张
+Sine	正弦
+Wave	波浪
+Jiggle	抖动
+Sculpt Geometry Tool	雕刻几何体工具
+Geometry	几何体
+Cache	缓存
+Caches	缓存
+Simulation	模拟
+Particles	粒子
+Particle	粒子
+Emitter	发射器
+Emitters	发射器
+Gravity	重力
+Turbulence	湍流
+Vortex	漩涡
+Drag	阻力
+Air	空气
+Radial	径向
+Uniform	统一
+Volume Axis	体积轴
+Fields/Solvers	场/解算器
+Fields	场
+Solver	解算器
+Solvers	解算器
+Rigid Body	刚体
+Collision	碰撞
+Collisions	碰撞
+Cloth	布料
+Fluid	流体
+Fluids	流体
+Effects	效果
+Toon	卡通
+Stereo	立体
+Visualize	可视化
+Generate	生成
+Maya Mode	Maya 模式
+Make Blender feel like Maya	启用 Maya 工作流
+Switch to Maya	切换到 Maya
+Switch to Blender	切换到 Blender
+Marquee Selects Hidden Components	框选隐藏组件
+Pick Walk Skips Hidden Bone Collections	遍历选择时跳过隐藏骨骼集合
+Armature Mode Picker	骨架模式切换器
+Pulse Armature Mode	骨架模式按钮闪烁提示
+Start in Maya Layout	以 Maya 布局启动
+Keep Maya Layout When Opening Files	打开文件时保持 Maya 布局
+Lock Tumble in Ortho Views	锁定正交视图的翻滚旋转
+Slider Speed	滑块速度
+Hyperbolic	双曲线
+Snap Time To Selection	将时间吸附到选定关键帧
+Auto Frame	自动框显
+Dope Sheet Auto Frame	摄影表自动框显
+Auto Frame Time	自动框显时间范围
+Curve Name	曲线名称
+Show Buffer Curves	显示缓冲曲线
+Default Tangent Weight	默认切线权重
+Snap On Frame	吸附到整帧
+Curve Colors	曲线颜色
+Batch Render Messages	批渲染消息
+Echo All Commands	回显所有命令
+Line numbers in errors	错误中显示行号
+Show Stack Trace	显示堆栈跟踪
+Suppress Command Results	不显示命令结果
+Suppress Info Messages	不显示信息消息
+Suppress Warning Messages	不显示警告消息
+Suppress Error Messages	不显示错误消息
+Suppress Stack Window	不显示堆栈窗口
+Suppress Duplicate Variable Messages	不显示重复变量消息
+History Output	历史输出
+Sync Selection in Graph Editor	同步曲线图编辑器中的选择
+Sync Timeline Display	同步时间轴显示
+In Tangent	入切线
+Out Tangent	出切线
+Default In Tangent	默认入切线
+Default Out Tangent	默认出切线
+Test Resolution	测试分辨率
+Maya Menu Bar	Maya 菜单栏
+ViewCube	视图立方体
+Camera Names	摄影机名称
+Selection Wireframe	选定对象线框
+Component Colors	组件颜色
+Dock Colors	停靠面板颜色
+View Axis	视图轴
+In-View Messages	视口消息
+Panel Menus	面板菜单
+Maya Tool Box	Maya 工具箱
+Hotbox Style	热盒样式
+Show All Menu Sets	显示所有菜单集
+Current Project	当前项目
+Parent Mode	父子关系模式
+Maya Naming	Maya 命名规则
+Smart Duplicate	智能复制
+Smart Extrude	智能挤出
+Maya Units (1 BU = 1 cm)	Maya 单位（1 Blender 单位 = 1 厘米）
+Scene Concepts	场景概念
+UI Elements	界面元素
+Recommended setup	建议设置
+Maya Mode Only	仅在 Maya 模式下生效
+Maya Workflow Kit: the whole Maya workflow in Blender, in one install	Maya 工作流工具包：在 Blender 中使用 Maya 工作流
+Ctrl+Alt+Shift+M or the Maya / Blender switch at the right of the top bar switches at any time. Blender's own preferences are never changed.	按 Ctrl+Alt+Shift+M，或使用顶栏右侧的 Maya / Blender 按钮，可随时切换工作流。
+In mesh edit mode, box and lasso selection also pick vertices, edges and faces behind the surface, like Maya (Camera based selection off). X-ray is switched on only while dragging	在网格编辑模式下，框选和套索选择也会选中被表面遮挡的顶点、边和面，对应 Maya 关闭“基于摄影机的选择”。仅在拖动时启用 X 射线。
+In mesh edit mode (select and Move / Rotate / Scale tools), highlight the vertex, edge or face under the mouse before clicking (Maya)	在网格编辑模式下，使用选择、移动、旋转或缩放工具时，高亮显示鼠标下方的顶点、边或面。
+In object mode, a click picks IK handles, then joints (armatures), then curves before meshes under the mouse, like Maya's selection priority	对象模式下单击时，依次优先选择鼠标下方的 IK 控制柄、关节（骨架）、曲线，最后选择网格。
+Alt+LMB does nothing in top/front/side orthographic views (Maya)	在顶视图、前视图和侧视图等正交视图中，禁用 Alt + 鼠标左键的翻滚旋转。
+Value change accelerates with drag distance	值的变化速度随拖动距离增大。
+Selecting keys in the Graph Editor moves the current time to the earliest selected key	在曲线图编辑器中选择关键帧时，将当前时间移动到最早的选定关键帧。
+When the selection changes, the Graph Editor frames the curves it shows (Maya View > Auto Frame)	选择更改时，曲线图编辑器自动框显当前显示的曲线。
+When the selection changes, the Dope Sheet frames all the keys it shows (Maya Dope Sheet View > Auto Frame)	选择更改时，摄影表自动框显当前显示的所有关键帧。
+Write each curve's Maya name (pCube1.translateX) beside its last key in the Graph Editor	在曲线图编辑器的最后一个关键帧旁显示 Maya 曲线名称（例如 pCube1.translateX）。
+Draw each buffered curve's snapshot behind it in the Graph Editor (Maya View > Show Buffer Curves)	在曲线图编辑器的当前曲线后方显示缓冲曲线快照。
+Tangent weight of the curves the kit creates (Maya Curves > Default Tangent Weight)	设置工具包所创建曲线的默认切线权重。
+Write every command run from a menu, shelf or marking menu into the Script Editor history (as the Python call the kit runs)	将菜单、工具架或标记菜单执行的命令，以 Python 调用形式记录到脚本编辑器历史中。
+Selecting channels in the Channel Box selects their curves, and S keys only the selected channels	选择通道盒中的通道时，同时选择对应曲线；按 S 仅为选定通道设置关键帧。
+The Time Slider shows only the keys of the channels selected in the Channel Box	时间滑块仅显示通道盒中选定通道的关键帧。
+Python command line in the status bar	在状态栏显示 Python 命令行。
+Maya-style help for the active tool in the status bar	在状态栏显示当前工具的 Maya 风格帮助。
+How Maya marking menus are shown	设置 Maya 标记菜单的显示方式。
+What P (Parent) does to the child's values	设置按 P 建立父子关系时如何处理子对象的变换值。
+Create menu names objects pCube1 / pCubeShape1 (otherwise Blender names)	通过“创建”菜单创建对象时，使用 pCube1 / pCubeShape1 等 Maya 命名规则。
+Shift+drag a Move/Rotate/Scale manipulator duplicates the selection and transforms the copy	按住 Shift 拖动移动、旋转或缩放操纵器，复制选定对象并变换副本。
+Shift+drag a Move/Rotate/Scale manipulator on faces or edges extrudes them and transforms the new ones	按住 Shift 拖动面或边的移动、旋转或缩放操纵器，挤出并变换新组件。
+Tumble	翻滚
+Track	平移
+Dolly	推拉
+Manipulator	操纵器
+Move	移动
+Paint	绘制
+Lasso	套索
+Selection Highlighting	选择高亮显示
+Lighting	照明
+Renderer	渲染器
+Panels	面板
+Object X	对象 X 轴
+Object Y	对象 Y 轴
+Object Z	对象 Z 轴
+World X	世界 X 轴
+World Y	世界 Y 轴
+World Z	世界 Z 轴
+SHAPES	形状
+INPUTS	输入
+OUTPUTS	输出
+3D Cut and Sew UV Tool	3D 剪切和缝合 UV 工具
+3D Grab UV Tool	3D 抓取 UV 工具
+2 Points to 2 Points	两点对齐到两点
+3 Points to 3 Points	三点对齐到三点
+Point	点
+Points	点
+Attribute	属性
+Editor	编辑器
+Editor Type	编辑器类型
+Align	对齐
+Align Tool	对齐工具
+Dynamic	动力学
+Container	容器
+Holder	保持器
+Labels	标签
+Label	标签
+Members	成员
+Member	成员
+Contents	内容
+Asset	资产
+Assets	资产
+Advanced	高级
+Adjust	调整
+Volume	体积
+Ambient	环境
+Diffuse	漫反射
+Specular	镜面反射
+Amplify Tool	放大工具
+Anchor	锚点
+Preset	预设
+Presets	预设
+Annotation	注解
+Append to Cache	追加到缓存
+Append to Polygon	附加到多边形
+Arc Length Tool	弧长工具
+Archive Scene	归档场景
+Assembly	装配
+Assembly Definition	装配定义
+Assembly Reference	装配引用
+Assign	指定
+Assign New Material	指定新材质
+Assign Existing Material	指定现有材质
+Assign Favorite Material	指定收藏材质
+Attach	附加
+Detach	分离
+Attach to Motion Path	附加到运动路径
+Attach Without Moving	附加但不移动
+Assume Preferred Angle	采用首选角度
+Attribute Spread Sheet	属性电子表格
+Auto Seams	自动接缝
+Backward	向后
+Forward	向前
+Bake	烘焙
+Bake Pivot	烘焙枢轴
+Deformation	变形
+Topology	拓扑
+Target	目标
+Targets	目标
+Spring	弹簧
+Springs	弹簧
+Bone	骨骼
+Bones	骨骼
+Muscle	肌肉
+Muscles	肌肉
+Muscle System	肌肉系统
+Muscle Displace	肌肉置换
+Muscle Smart Collide	肌肉智能碰撞
+Rest Shape	静止形状
+Rest	静止
+Bind	绑定
+Unbind	解除绑定
+Fat	脂肪
+Baldness	秃发
+Balls	球
+Brush	笔刷
+Brushes	笔刷
+Bulge	膨胀
+Bulge Tool	膨胀工具
+Clump Brush	成束笔刷
+Comb Brush	梳理笔刷
+Density Brush	密度笔刷
+Cut Brush	剪切笔刷
+Best Plane	最佳平面
+Bezier Corner	贝塞尔角点
+Birail	双轨成形
+Blue Pencil	蓝铅笔
+Bookmark	书签
+Bookmarks	书签
+Bookmark Manager	书签管理器
+Border	边界
+Break	断开
+Make Links	建立链接
+Links	链接
+Link	链接
+Shadow	阴影
+Outline	轮廓线
+Outlines	轮廓线
+Stroke	笔划
+Strokes	笔划
+Hair	毛发
+Hair System	毛发系统
+Control	控制
+Control Rig	控制绑定
+Rig	绑定
+Rigs	绑定
+CVs	控制顶点
+Cached Playback	缓存播放
+Camera-based	基于摄影机
+Camera Sequencer	摄影机序列编辑器
+Camera Manipulators	摄影机操纵器
+Aim	目标
+Capsule	胶囊
+Caps Lock	大写锁定
+Centered	居中
+Character	角色
+Generator	生成器
+Mapper	映射器
+Highlight	高光
+Circular Fillet	圆角
+Fillet	圆角
+Clear	清除
+Clipboard	剪贴板
+Clipboard Actions	剪贴板操作
+Clip	片段
+Clips	片段
+Clone Target Tool	克隆目标工具
+Closest Point	最近点
+Cloud	云
+Clusters	簇
+Collide	碰撞
+Collide Strength	碰撞强度
+Command Shell	命令外壳
+Component IDs	组件 ID
+Construction Plane	构建平面
+Construction Planes	构建平面
+Content Browser	内容浏览器
+Contiguous Edges	连续边
+Contour Stretch	轮廓拉伸
+Convert	转换
+Interactive Groom	交互式梳理
+Primitives	基本体
+Map	贴图
+Maps	贴图
+Space	空间
+Active	主动
+Passive	被动
+Animated	动画
+Snapshot	快照
+Snapshots	快照
+Barrier	屏障
+Base	基础
+Boat	船
+Description	描述
+Descriptions	描述
+Empty	空
+Hinge	铰链
+Handle	控制柄
+Handles	控制柄
+LOD Group	LOD 组
+Network	网络
+Networks	网络
+Modifier	修改器
+Nail	钉子
+Disk	磁盘
+Collider	碰撞体
+Pose Interpolator	姿势插值器
+Subcharacter Set	子角色集
+Turntable	转台
+Wake	尾流
+Initial State	初始状态
+Current	当前
+Utilities	实用工具
+Warp	扭曲
+Smoothness	平滑度
+Dark Profile	暗色轮廓
+Deformability	可变形性
+Deforming Geometry	变形几何体
+Entire	整个
+Sounds	声音
+UVs	UV
+Normalization	规格化
+Post Normalization	后期规格化
+Displacement	置换
+Intermediate Objects	中间对象
+NURBS Patch	NURBS 面片
+Dynamic Relationships	动力学关系
+Membership	成员关系
+Oversampling	过采样
+Emit from Object	从对象发射
+Evaluation	求值
+Evaluate	求值
+Even Anchor Tangents	均匀锚点切线
+Exclude Collide Pairs	排除碰撞对
+Exclusive To Camera	摄影机独占
+Exit On Completion	完成后退出
+Export All to Alembic	将全部导出为 Alembic
+Export Selection to Alembic	将选定对象导出为 Alembic
+Import Alembic	导入 Alembic
+Reference Alembic	引用 Alembic
+Export Weight Maps	导出权重贴图
+Import Weight Maps	导入权重贴图
+Pre-Compositing	预合成
+Proxy	代理
+Collection	集合
+Collections	集合
+Light-Centric	以灯光为中心
+Object-Centric	以对象为中心
+Influence Objects	影响对象
+Influence Object	影响对象
+Prune	修剪
+Flood	灌注
+Resample	重采样
+Rebuild	重建
+Revolve	旋转成形
+Loft	放样
+Boundary	边界
+Trim	修剪
+Untrim	取消修剪
+Stitch Surface	缝合曲面
+Extend	延伸
+Extend Curve	延伸曲线
+Extend Surface	延伸曲面
+Extend Surfaces	延伸曲面
+Detach Curves	分离曲线
+Attach Curves	附加曲线
+Reverse Curve Direction	反转曲线方向
+Open/Close Curves	打开/闭合曲线
+Smooth Curve	平滑曲线
+Bezier Curves	贝塞尔曲线
+NURBS Curves	NURBS 曲线
+EP Curve Tool	编辑点曲线工具
+CV Curve Tool	控制顶点曲线工具
+Pencil Curve Tool	铅笔曲线工具
+Arc	圆弧
+Fit	拟合
+Fillet Curve	曲线圆角
+Surface Editing	曲面编辑
+Sculpting	雕刻
+ShrinkWrap	收缩包裹
+Tension	张力
+Texture Deformer	纹理变形器
+Blend Shape Deformer	混合变形器
+Proximity Wrap	邻近包裹
+Geometry Constraint	几何体约束
+Normal Constraint	法线约束
+Tangent Constraint	切线约束
+Pole Vector	极向量
+Parenting	父子关系
+Controllers	控制器
+Controller	控制器
+Orient	方向
+Reroot	重设根
+IK Spline Handle	IK 样条线控制柄
+Set Preferred Angle	设置首选角度
+Insert Joint	插入关节
+Remove Joint	移除关节
+Disconnect Joint	断开关节
+Connect Joint	连接关节
+Mirror Joints	镜像关节
+HumanIK	HumanIK
