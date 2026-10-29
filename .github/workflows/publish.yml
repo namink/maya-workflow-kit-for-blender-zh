@@ -1,0 +1,48 @@
+name: Import prepared source snapshot
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Expand verified source snapshot
+        run: |
+          python - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import hashlib
+          import zipfile
+          archive = Path('maya-workflow-kit-for-blender-zh-source.zip')
+          expected = Path('maya-workflow-kit-for-blender-zh-source.zip.sha256').read_text().split()[0]
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == expected
+          root = Path.cwd().resolve()
+          with zipfile.ZipFile(archive) as z:
+              for member in z.infolist():
+                  name = PurePosixPath(member.filename)
+                  if not name.parts or name.parts[0] in {'.git', '.github'} or member.is_dir():
+                      continue
+                  assert not name.is_absolute() and '..' not in name.parts
+                  target = root.joinpath(*name.parts).resolve()
+                  assert target.is_relative_to(root)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(z.read(member))
+          PY
+          python -m compileall -q src/allset
+      - name: Commit source files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src tools tests docs README.md README.en.md LOCALIZATION.md LICENSE CONTRIBUTING.md UPSTREAM.json RELEASE_NOTES.md .gitignore .gitattributes integration_sites.json localization_changes.json
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: import complete Simplified Chinese extension source"
+            git push origin HEAD:main
+          fi
+      - name: Build installable extension
+        run: python tools/build.py
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.6.2-zh.2 dist/*.zip dist/*.sha256 --title "Maya Workflow Kit 简体中文 0.6.2+zh.2" --notes-file RELEASE_NOTES.md
